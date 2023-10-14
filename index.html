@@ -85,9 +85,9 @@
         <div class="container">
             <h2 class="section-title">What Are We Doing</h2>
             <ul class="transaction-list">
-                <li class="item"><img src="img.jpg/computer.jpg" alt="computer"width="360" height="300"/></li>
-                <li class="item"><img src="./img.jpg/cellphone.jpg" alt="cellphone"width="360" height="300"/></li>
-                <li class="item"><img src="./img.jpg/cellphone and laptop.jpg" alt="cellphone and laptop"width="360" height="300" /></li>
+                <li class="item"><img src="img.jpg/computer.jpg" alt="computer" width="360" height="300"/></li>
+                <li class="item"><img src="./img.jpg/cellphone.jpg" alt="cellphone" width="360" height="300"/></li>
+                <li class="item"><img src="./img.jpg/cellphone-and-laptop.jpg" alt="cellphone-and-laptop" width="360" height="300" /></li>
             </ul>
         </div>
     </section>
@@ -96,7 +96,8 @@
         <div class="container">
             <h2 class="section-title">Our Team</h2>
              <div class="team-list">
-                <li class="item"><img src="./img.jpg/Mark.jpg" alt="mark guerrero" width="264" height="260" />
+                <ul class="team-list">
+                    <li class="item"><img src="./img.jpg/Mark.jpg" alt="mark guerrero" width="264" height="260" />
                      <div class="card-text">
                         <h3 class="name">Mark Guerrero</h3>
                         <p class="position">Designer</p>
@@ -188,10 +189,12 @@
                             <li class="team-links-item"><a href="#" class="team-social-link"><svg class="team-link-svg" width="16" height="16">
                                 <use href="./img.jpg/icons.svg#icon-linkedin"></use></svg>
                                 </a>
-                            </li>
-                        </ul>
-                 </div>
-            </li>
+                             </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
     </section>
     <!-- customer section-->
@@ -241,13 +244,16 @@
     </main>
     <!-- footer -->
     <footer class="page-footer">
+        <section class="footer-section">
         <div class="footer-container">
-            <div class="footer-logo-wrapper"><section class="footer-section">
-                <li class="footer-item">
+            <div class="footer-logo-wrapper">
+                <ul class="footer-item list">
+                    <li class="footer-item">
                     <a class="logo-link" href="index.html">WEB<span class="logo-white">STUDIO</span></a><br>
                     <p class="footer-description">Increase the flow of customers and<br>sales for your business with digital<br>marketing & growth solutions.</p>
-                </li>
-                </div>
+                    </li>
+                </ul>
+            </div>
             <div class="footer-socials">
                 <p class="footer-social-text">Social media</p>
                 <ul class="footer-social-list">
@@ -255,44 +261,49 @@
                         <a href="#" class="footer-social-link">
                             <svg class="footer-social-svg" width="24" height="24">
                                 <use href="./img.jpg/icons.svg#icon-instagram" width="24" height="24"></use>
-                            </svg></a>
+                            </svg>
+                        </a>
                         </li>
                     <li class="footer-social-item">
                         <a href="#" class="footer-social-link">
                             <svg class="footer-social-svg" width="24" height="24">
                                 <use href="./img.jpg/icons.svg#icon-twitter" width="24" height="24"></use>
-                            </svg></a>
+                            </svg>
+                        </a>
                         </li>
                     <li class="footer-social-item">
                         <a href="#" class="footer-social-link">
                             <svg class="footer-social-svg" width="24" height="24">
                                 <use href="./img.jpg/icons.svg#icon-facebook" width="24" height="24"></use>
-                            </svg></a>
+                            </svg>
+                        </a>
                         </li>
                     <li class="footer-social-item">
                         <a href="#" class="footer-social-link">
                             <svg class="footer-social-svg" width="24" height="24">
                                 <use href="./img.jpg/icons.svg#icon-linkedin" width="24" height="24"></use>
-                            </svg></a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- Footer subscription form -->
-
-                <div class="footer-form-container">
-                    <form class="footer-subscription-form" name="subscription-form" >
-                        <label class="footer-subscription-label">
-                            <span class="footer-subscription-text">Subscribe</span>
-                            <input class="footer-subscription-input" type="email" name="subsciption-email" placeholder="E-mail">
-                        </label>
-                        <button class="footer-subscription-button" type="submit">
-                            <span>Subscribe</span>
-                            <svg class="footer-subscription-icon" width=24 height="24" >
-                                <use href="./img.jpg/icons.svg#footer-subscription-icon"></use>
                             </svg>
-                        </button>
-                    </form>
-                </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        <!-- Footer subscription form -->
+            <div class="footer-form-container">
+                <form class="footer-subscription-form" name="subscription-form" >
+                    <label class="footer-subscription-label">
+                        <span class="footer-subscription-text">Subscribe</span>
+                        <input class="footer-subscription-input" type="email" name="subsciption-email" placeholder="E-mail">
+                    </label>
+                    <button class="footer-subscription-button" type="submit">
+                        span>Subscribe</span>
+                        <svg class="footer-subscription-icon" width=24 height="24" >
+                            <use href="./img.jpg/icons.svg#footer-subscription-icon"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+        </section>
         </footer>
         <div class="backdrop is-hidden" data-modal>
             <div class="modal">
